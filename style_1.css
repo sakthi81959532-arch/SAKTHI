@@ -1,0 +1,127 @@
+body {
+
+  font-family: 'Poppins', sans-serif;
+
+  margin: 0;
+
+  background: #f9fbfd;
+
+  color: #333;
+
+}
+
+header {
+
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+
+  color: white;
+
+  text-align: center;
+
+  padding: 40px 20px;
+
+}
+
+header h1 {
+
+  font-size: 2.4rem;
+
+  margin-bottom: 10px;
+
+}
+
+nav a {
+
+  color: white;
+
+  margin: 0 15px;
+
+  text-decoration: none;
+
+  font-weight: 500;
+
+  transition: 0.3s;
+
+}
+
+nav a:hover {
+
+  color: yellow;
+
+}
+
+section {
+
+  padding: 50px 20px;
+
+  max-width: 1000px;
+
+  margin: auto;
+
+}
+
+h2 {
+
+  color: #11998e;
+
+  margin-bottom: 20px;
+
+}
+
+.card {
+
+  background: white;
+
+  padding: 20px;
+
+  margin: 15px 0;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+  transition: 0.3s;
+
+}
+
+.card:hover {
+
+  transform: translateY(-5px);
+
+}
+
+.progress-bar {
+
+  margin: 15px 0;
+
+}
+
+.progress-bar span {
+
+  font-weight: bold;
+
+}
+
+.bar {
+
+  background: #ddd;
+
+  border-radius: 8px;
+
+  overflow: hidden;
+
+  height: 18px;
+
+  margin-top: 5px;
+
+}
+
+.fill {
+
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+
+  height: 100%;
+
+  border-radius: 8px;
+
+}
